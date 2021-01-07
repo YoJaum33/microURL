@@ -1,0 +1,7 @@
+
+
+INSERT INTO 'MC'('ID','MC') VALUES(NULL,'mot_clé');
+
+INSERT INTO 'url'('id','url','shortcut','datetime','description')VALUES (NULL,'url','url_courte',NOW(),'description');
+
+INSERT INTO 'asso_mc_url'('id','mc_id','url_id') VALUES (NULL,'id_mot_clé','id_url');
